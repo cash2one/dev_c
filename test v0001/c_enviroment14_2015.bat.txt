@@ -1,0 +1,7 @@
+REM MSDEV是 VC6++ IDE的变量  CD是 VC6++ 编译器变量
+
+set MSDEV=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE
+set CD=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC
+set PATH=%CD%\bin;%MSDEV%\bin;%PATH%
+set INCLUDE=%CD%\include
+set LIB=%CD%\lib
